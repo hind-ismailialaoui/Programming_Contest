@@ -53,32 +53,4 @@ for _ in range(t):
     #             print('YES')
     # else:
     #     print('NO')
-    #
-    #
-    #
-    #
-    #1 CREATE EXTERNAL TABLE Faits (
-SK Etablissement INT,
-3 SK_Temps INT,
-4 SK_Patient INT,
-5 SK Localisation INT,
-6 SK_Professionnel INT,
-7 SK Diagnostic INT,
-8 b_Consult_Etab_Periode INT,
-9
-Nb_Consult_Diag_Periode INT,
-10 Nb_Hospi_Periode INT,
-11
-Nb Hospi Diag Periode INT,
-12
-Nb_Hospi_Sexe_Age INT,
-13
-Nb Consult_Pro INT,
-14
-15 Nb_Deces_Loca_Periode INT,
-Nb Satis Loca Periode INT
-16 )
-17 ROW FORMAT DELIMITED
-18 FIELDS TERMINATED BY
-19 STORED AS TEXTILE
-20 LOCATION '/user/hive/data/ProjetBD/Table Faits'
+    
