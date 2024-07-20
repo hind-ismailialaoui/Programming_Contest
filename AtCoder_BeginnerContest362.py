@@ -1,4 +1,4 @@
-#A
+# A - Buy a Pen
 
 R, G, B = map(int, input().split())
 C = str(input())
@@ -11,7 +11,7 @@ else:
     if C[0] == "B":
         print(min(R, G))
 
-#B 
+# B - Right Triangle
 
 import math
 
