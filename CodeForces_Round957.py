@@ -1,6 +1,7 @@
 # A. Only Pluses
 
 t = (int(input()))
+
 # s = []
 for _ in range(t):
     a, b, c = map(int, input().split())
